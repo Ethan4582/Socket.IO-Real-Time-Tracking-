@@ -1,0 +1,15 @@
+- We need to check if the your browser support the geloaction or not and some we need to give access from the browser to let track the location 
+
+
+- we neet set accuaracy and use scoket to ask for new location
+- No caching we use Watch postion to track the user location 
+-we use emit location { longtitude , latitude }  via socket 
+
+- intiate the map centered at location (0 , 0 ) with zoom  of 15 which is very close using leaflet 
+- Add Open streetMap titiles to the map  
+
+- Create and object marker [ something that shows the location ]
+
+- we use scocket to get location data  like id , longtitude , latitude, center of the map  on new location
+
+- if we are not a new use and we are already on the map we jsut neeed to update your map so create a new marker 
